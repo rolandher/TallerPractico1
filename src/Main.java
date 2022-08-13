@@ -8,5 +8,5 @@ public class Main {
         Doctor doctor = new Doctor();
 
         System.out.println("La especialidad del doctor es: " + doctor.getSpeciality());
-    }
+        }
 }
