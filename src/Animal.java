@@ -1,25 +1,35 @@
-public class Animal {
 
-    private String raza;
+    /**
+    * Representa atributos para un animal
+    */
+    public class Animal {
+
+    private String race;
     private String name;
     private int age;
-
-    public Animal(String nuevoNombre) {
-        name = nuevoNombre; //Se le da un nombre al animal
+    /**
+     * Metodo para obtener el nombre del animal
+     */
+    public Animal(String newName) {
+        name = newName;
     }
 
-    //Método para obtener la edad del animal
+    /**
+     * Método para obtener la edad del animal
+     */
     public int getAge() {
         return age;
     }
-
-    //Método para establecer la edad del animal
-    public void setAge(int nuevaEdad) {
-        age = nuevaEdad;
+    /**
+     * Método para establecer la edad del animal
+     */
+       public void setAge(int newAge) {
+        age = newAge;
     }
-
-    //Método para obtener el nombre del animal
-    public String getName() {
+    /**
+     * Método para obtener el nombre del animal
+     */
+     public String getName() {
         return name;
     }
 }
